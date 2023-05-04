@@ -1,0 +1,22 @@
+{
+  "name": "MSAlert",
+  "version": "1.0.0",
+  "summary": "MSAlert",
+  "homepage": "https://github.com/mobi-soft-tech/Alert",
+  "authors": {
+    "Shahen Antonyan": ""
+  },
+  "source": {
+    "git": "git@github.com:mobi-soft-tech/Alert.git",
+    "tag": "1.0.0"
+  },
+  "xcconfig": {
+    "LIBRARY_SEARCH_PATHS": "$(SDKROOT)/usr/lib/swift"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "ios": {
+    "vendored_frameworks": "MSAlert.xcframework"
+  }
+}
